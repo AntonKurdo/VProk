@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
 import {works} from '../data/data';
 import CardItem from './CardItem';
 import Button from '@material-ui/core/Button';
+import { Link as Scroll } from 'react-scroll';
 
 const useStyles = makeStyles(theme => ({
     works: {
@@ -25,14 +26,18 @@ const useStyles = makeStyles(theme => ({
             display: 'none'
         }
     },
-    worksContainer: {        
+    worksContainer: {
         display: 'flex',
         justifyContent: 'center',
         flexWrap: 'wrap',
         width: '90%',
-        margin: '50px auto 20px', 
-        [theme.breakpoints.between('xs', 'md')]: {
-            flexDirection: 'column',  
+        margin: '50px auto 20px',
+        [
+            theme
+                .breakpoints
+                .between('xs', 'md')
+        ]: {
+            flexDirection: 'column',
             marginTop: '10px'
         }
     },
@@ -43,40 +48,47 @@ const useStyles = makeStyles(theme => ({
         display: 'none',
         color: '#fff',
         '&:hover': {
-            backgroundColor: '#fe8d50' ,
+            backgroundColor: '#fe8d50'
         },
-        [theme.breakpoints.between('xs', 'md')]: {
+        [
+            theme
+                .breakpoints
+                .between('xs', 'md')
+        ]: {
             display: 'block'
         }
     }
 }))
 
 export const Works = () => {
-    const s = useStyles();  
-    const [isAll, setIsAll] = useState(false)
+    const s = useStyles();
+    const [isAll,
+        setIsAll] = useState(false)
     return (
-        <div className={s.works} id='works'>            
-                <h1>Наши работы</h1>           
+        <div className={s.works} id='works'>
+            <h1>Наши работы</h1>
             <div className={s.subtitle}>
                 Строим дома по всей Беларуси по проектам любой сложности. Собственное производно
                 СИП панелей. Доступные цены, надежность и быстрота сборки.
             </div>
-            <div className={s.worksContainer}>            
-                {
-                    works.map((work, ind) => {
-                        return (                            
-                            <CardItem img={work} isAll={isAll} key={ind} />                            
-                        )
-                    } )
-                }                
+            <div className={s.worksContainer}>
+                {works.map((work, ind) => {
+                    return (<CardItem img={work} isAll={isAll} key={ind}/>)
+                })
+}
             </div>
-            <Button                      
-                        className={s.viewAllButton}
-                variant="contained"  
+            <Scroll to='works' smooth={true}>
+                <Button
+                className={s.viewAllButton}
+                variant="contained"
                 onClick={() => setIsAll(!isAll)}
-                    >
-                    {isAll ? 'Скрыть все' : 'Показать все'}
+                >
+                {isAll
+                    ? 'Скрыть все'
+                    : 'Показать все'}
             </Button>
+            </Scroll>
+            
         </div>
     )
 }
