@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ece59038c24c2c0e44e3c63ccc1ae935",
+    "revision": "1286673dedc2c931118793c0cdee80b8",
     "url": "/VProk/index.html"
   },
   {
