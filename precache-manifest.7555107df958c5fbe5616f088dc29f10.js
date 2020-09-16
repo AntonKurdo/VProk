@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15835a0adf0b0a7a91d75bdb2e2b28ef",
+    "revision": "c61e7c1f2cc11512646ba6c10dc3e93b",
     "url": "/VProk/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VProk/static/js/2.ebb1e115.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "820aade4ce78e1cb1b88",
-    "url": "/VProk/static/js/main.f41ccd67.chunk.js"
+    "revision": "8a07b3396451a5591e38",
+    "url": "/VProk/static/js/main.7df18fb9.chunk.js"
   },
   {
     "revision": "28825e220e904a33108e",
