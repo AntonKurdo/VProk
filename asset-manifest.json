@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/VProk/static/js/main.e863a348.chunk.js",
-    "main.js.map": "/VProk/static/js/main.e863a348.chunk.js.map",
+    "main.js": "/VProk/static/js/main.472e5a06.chunk.js",
+    "main.js.map": "/VProk/static/js/main.472e5a06.chunk.js.map",
     "runtime-main.js": "/VProk/static/js/runtime-main.5c976bd2.js",
     "runtime-main.js.map": "/VProk/static/js/runtime-main.5c976bd2.js.map",
-    "static/js/2.9fb4b4ba.chunk.js": "/VProk/static/js/2.9fb4b4ba.chunk.js",
-    "static/js/2.9fb4b4ba.chunk.js.map": "/VProk/static/js/2.9fb4b4ba.chunk.js.map",
+    "static/js/2.ebb1e115.chunk.js": "/VProk/static/js/2.ebb1e115.chunk.js",
+    "static/js/2.ebb1e115.chunk.js.map": "/VProk/static/js/2.ebb1e115.chunk.js.map",
     "index.html": "/VProk/index.html",
-    "precache-manifest.08a6887f432c1e39d7caa5d480280411.js": "/VProk/precache-manifest.08a6887f432c1e39d7caa5d480280411.js",
+    "precache-manifest.4cd5abf052826764a6c83d060eb685f1.js": "/VProk/precache-manifest.4cd5abf052826764a6c83d060eb685f1.js",
     "service-worker.js": "/VProk/service-worker.js",
-    "static/js/2.9fb4b4ba.chunk.js.LICENSE.txt": "/VProk/static/js/2.9fb4b4ba.chunk.js.LICENSE.txt",
+    "static/js/2.ebb1e115.chunk.js.LICENSE.txt": "/VProk/static/js/2.ebb1e115.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/VProk/static/media/1.809b4622.jpg",
     "static/media/2.jpg": "/VProk/static/media/2.716665be.jpg",
     "static/media/3.jpg": "/VProk/static/media/3.42e60c79.jpg",
@@ -21,7 +21,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5c976bd2.js",
-    "static/js/2.9fb4b4ba.chunk.js",
-    "static/js/main.e863a348.chunk.js"
+    "static/js/2.ebb1e115.chunk.js",
+    "static/js/main.472e5a06.chunk.js"
   ]
 }
