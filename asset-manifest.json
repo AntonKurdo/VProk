@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/VProk/static/js/main.17ef36f5.chunk.js",
-    "main.js.map": "/VProk/static/js/main.17ef36f5.chunk.js.map",
+    "main.js": "/VProk/static/js/main.8d64112c.chunk.js",
+    "main.js.map": "/VProk/static/js/main.8d64112c.chunk.js.map",
     "runtime-main.js": "/VProk/static/js/runtime-main.5c976bd2.js",
     "runtime-main.js.map": "/VProk/static/js/runtime-main.5c976bd2.js.map",
     "static/js/2.ebb1e115.chunk.js": "/VProk/static/js/2.ebb1e115.chunk.js",
     "static/js/2.ebb1e115.chunk.js.map": "/VProk/static/js/2.ebb1e115.chunk.js.map",
     "index.html": "/VProk/index.html",
-    "precache-manifest.d8bbe5613b894d2665f34c48817bc0b1.js": "/VProk/precache-manifest.d8bbe5613b894d2665f34c48817bc0b1.js",
+    "precache-manifest.31b6ad2a83ec1cb57f28485e26d59e6c.js": "/VProk/precache-manifest.31b6ad2a83ec1cb57f28485e26d59e6c.js",
     "service-worker.js": "/VProk/service-worker.js",
     "static/js/2.ebb1e115.chunk.js.LICENSE.txt": "/VProk/static/js/2.ebb1e115.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/VProk/static/media/1.809b4622.jpg",
@@ -22,6 +22,6 @@
   "entrypoints": [
     "static/js/runtime-main.5c976bd2.js",
     "static/js/2.ebb1e115.chunk.js",
-    "static/js/main.17ef36f5.chunk.js"
+    "static/js/main.8d64112c.chunk.js"
   ]
 }
