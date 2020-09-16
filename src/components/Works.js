@@ -3,8 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import {works} from '../data/data';
 import CardItem from './CardItem';
 import Button from '@material-ui/core/Button';
-import { Fade, Collapse } from '@material-ui/core';
-import useWindowPosition from '../hooks/useWindowPosition';
 
 const useStyles = makeStyles(theme => ({
     works: {
@@ -54,8 +52,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export const Works = () => {
-    const s = useStyles();
-    const checked = useWindowPosition('works');
+    const s = useStyles();  
     const [isAll, setIsAll] = useState(false)
     return (
         <div className={s.works} id='works'>            
