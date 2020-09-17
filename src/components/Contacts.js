@@ -1,7 +1,6 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import bg from '../assets/contacts_bg.jpg';
-
 import {contacts} from '../data/data';
 import { Footer } from './Footer';
 
@@ -18,15 +17,16 @@ const useStyles = makeStyles(theme => ({
         backgroundSize: 'cover',
         color: '#c2c2c2',
         fontFamily: 'Nunito',
-        [theme.breakpoints.down('md')]: {
-            height: '100%',
-            paddingBottom: '20px'
+        [theme.breakpoints.down('md')]: {            
+            paddingBottom: '20px',
+            height: '100%'
         }
     },
     title: {
         fontSize: '2rem'       
     },
-    container: {
+    container: {     
+        paddingTop: '20px',
         height: '80%',       
         display: 'flex',
         width: '85%',
@@ -62,6 +62,7 @@ const useStyles = makeStyles(theme => ({
     },
     itemText: {
         width: '240px',
+        height: '40px',
         textAlign: 'center',
         marginTop: '30px',
         fontSize: '1.5rem',

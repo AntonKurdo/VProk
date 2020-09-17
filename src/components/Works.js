@@ -5,6 +5,7 @@ import CardItem from './CardItem';
 import Button from '@material-ui/core/Button';
 import { Link as Scroll } from 'react-scroll';
 
+
 const useStyles = makeStyles(theme => ({
     works: {
         height: '100%',
@@ -41,7 +42,7 @@ const useStyles = makeStyles(theme => ({
             marginTop: '10px'
         }
     },
-    viewAllButton: {
+    viewAllButton: {        
         backgroundColor: '#fe8d12',
         marginBottom: '20px',
         fontFamily: 'Nunito',
@@ -60,7 +61,7 @@ const useStyles = makeStyles(theme => ({
     }
 }))
 
-export const Works = () => {
+export const Works = ({handleOpenModal}) => {
     const s = useStyles();
     const [isAll,
         setIsAll] = useState(false)
@@ -73,22 +74,22 @@ export const Works = () => {
             </div>
             <div className={s.worksContainer}>
                 {works.map((work, ind) => {
-                    return (<CardItem img={work} isAll={isAll} key={ind}/>)
-                })
-}
+                    return (<CardItem onClick={handleOpenModal.bind(null, work)} img={work} isAll={isAll} key={ind}/>)
+                })}
             </div>
-            <Scroll to='works' smooth={true}>
-                <Button
-                className={s.viewAllButton}
-                variant="contained"
-                onClick={() => setIsAll(!isAll)}
-                >
-                {isAll
-                    ? 'Скрыть все'
-                    : 'Показать все'}
-            </Button>
+            <Scroll to={isAll
+                ? ''
+                : 'works'} smooth={true}>
+                <Button                    
+                    className={s.viewAllButton}
+                    variant="contained"
+                    onClick={() => setIsAll(!isAll)}>
+                    {isAll
+                        ? 'Скрыть все'
+                        : 'Показать все'}
+                </Button>
             </Scroll>
-            
+
         </div>
     )
 }

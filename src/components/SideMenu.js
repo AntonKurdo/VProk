@@ -9,6 +9,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import {Link as Scroll} from 'react-scroll';
 import Button from '@material-ui/core/Button';
 import CallIcon from '@material-ui/icons/Call';
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
     menuLogo: {
@@ -31,7 +32,19 @@ const useStyles = makeStyles((theme) => ({
         },
         color: '#fe8d12',
         borderColor: '#fe8d12'
-    }
+    },
+    emailButton: {
+        marginTop: '100px',
+        position: 'absolute',
+        right: '50px',
+        [theme.breakpoints.up('sm')]: {
+            display: 'none'
+            
+        },
+        color: '#fe8d12',
+        borderColor: '#fe8d12'
+    },
+   
 }));
 
 export const SideMenu = ({isMenuOpen, toggleMenu}) => {
@@ -50,7 +63,7 @@ export const SideMenu = ({isMenuOpen, toggleMenu}) => {
                     s.paperAnchorLeft
             }}>
             <h1 className={s.menuLogo}>
-                W<span className={s.coloredText}>Prok</span>
+                В<span className={s.coloredText}>ПРОК</span>
             </h1>
             <List>
                 {list.map(({
@@ -77,7 +90,15 @@ export const SideMenu = ({isMenuOpen, toggleMenu}) => {
                         startIcon={<CallIcon />}
                     >
                     +375 29 714-89-16
-                    </Button>
+                </Button>
+                <Button
+                        className={s.emailButton}
+                        variant="outlined"
+                        href="mailto: Wprok@tut.by"
+                        startIcon={<EmailIcon />}
+                    >
+                    Wprok@tut.by
+                </Button>
             </List>
         </Drawer>
     )

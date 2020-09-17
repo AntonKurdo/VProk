@@ -63,7 +63,7 @@ export const Footer = () => {
                     className={s.socialItem}
                     target="_blank"
                     rel="noopener noreferrer"
-                    href='#'
+                    href='https://instagram.com/postavy_wprok?igshid=16npdhjmz8tdb'
                 >
                     <InstagramIcon
                         style={{

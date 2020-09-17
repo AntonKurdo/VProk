@@ -29,13 +29,13 @@ const useStyles = makeStyles(theme =>({
     }
 }));
 
-export default function CardItem({img, isAll}) {
+export default function CardItem({img, isAll, onClick}) {
     const classes = useStyles();
 
     return (
         <Card className={!isAll ? classes.root : classes.rootAll}>
             <CardActionArea>
-                <CardMedia className={classes.media} image={img} title="Contemplative Reptile"/>
+                <CardMedia onClick={onClick} className={classes.media} image={img} title="Contemplative Reptile"/>
             </CardActionArea>
         </Card>
     );
