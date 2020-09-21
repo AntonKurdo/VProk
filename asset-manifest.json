@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/VProk/static/js/main.07c6fdb7.chunk.js",
-    "main.js.map": "/VProk/static/js/main.07c6fdb7.chunk.js.map",
+    "main.js": "/VProk/static/js/main.675cc74d.chunk.js",
+    "main.js.map": "/VProk/static/js/main.675cc74d.chunk.js.map",
     "runtime-main.js": "/VProk/static/js/runtime-main.5c976bd2.js",
     "runtime-main.js.map": "/VProk/static/js/runtime-main.5c976bd2.js.map",
-    "static/js/2.af1744d8.chunk.js": "/VProk/static/js/2.af1744d8.chunk.js",
-    "static/js/2.af1744d8.chunk.js.map": "/VProk/static/js/2.af1744d8.chunk.js.map",
+    "static/js/2.5a4f29de.chunk.js": "/VProk/static/js/2.5a4f29de.chunk.js",
+    "static/js/2.5a4f29de.chunk.js.map": "/VProk/static/js/2.5a4f29de.chunk.js.map",
     "index.html": "/VProk/index.html",
-    "precache-manifest.5fbd437583a8480abaab11c3cbc9b105.js": "/VProk/precache-manifest.5fbd437583a8480abaab11c3cbc9b105.js",
+    "precache-manifest.91b37ad32b8caf806d756c418d72aece.js": "/VProk/precache-manifest.91b37ad32b8caf806d756c418d72aece.js",
     "service-worker.js": "/VProk/service-worker.js",
-    "static/js/2.af1744d8.chunk.js.LICENSE.txt": "/VProk/static/js/2.af1744d8.chunk.js.LICENSE.txt",
+    "static/js/2.5a4f29de.chunk.js.LICENSE.txt": "/VProk/static/js/2.5a4f29de.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/VProk/static/media/1.809b4622.jpg",
     "static/media/2.jpg": "/VProk/static/media/2.716665be.jpg",
     "static/media/3.jpg": "/VProk/static/media/3.42e60c79.jpg",
@@ -17,14 +17,14 @@
     "static/media/5.jpg": "/VProk/static/media/5.3918a844.jpg",
     "static/media/6.jpg": "/VProk/static/media/6.6dbc4f94.jpg",
     "static/media/contacts_bg.jpg": "/VProk/static/media/contacts_bg.a9dad2b7.jpg",
-    "static/media/header_bg.jpg": "/VProk/static/media/header_bg.cd332c13.jpg",
     "static/media/map.png": "/VProk/static/media/map.3ff38190.png",
+    "static/media/mini-bg.jpg": "/VProk/static/media/mini-bg.f0009d1f.jpg",
     "static/media/slide_1.jpg": "/VProk/static/media/slide_1.b91e2015.jpg",
     "static/media/slide_2.jpg": "/VProk/static/media/slide_2.0294245f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5c976bd2.js",
-    "static/js/2.af1744d8.chunk.js",
-    "static/js/main.07c6fdb7.chunk.js"
+    "static/js/2.5a4f29de.chunk.js",
+    "static/js/main.675cc74d.chunk.js"
   ]
 }

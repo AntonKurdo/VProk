@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70b66710b33250544072c1b4368c39e5",
+    "revision": "38db99ef77ab684bdaf81f25febd4151",
     "url": "/VProk/index.html"
   },
   {
-    "revision": "5533a54172efc3bda33a",
-    "url": "/VProk/static/js/2.af1744d8.chunk.js"
+    "revision": "1d80a8e3d51184c28a12",
+    "url": "/VProk/static/js/2.5a4f29de.chunk.js"
   },
   {
     "revision": "89b0379e7bcda1a468d8b0343aeb4e53",
-    "url": "/VProk/static/js/2.af1744d8.chunk.js.LICENSE.txt"
+    "url": "/VProk/static/js/2.5a4f29de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5589926d509249abd983",
-    "url": "/VProk/static/js/main.07c6fdb7.chunk.js"
+    "revision": "223c8bc0afe269416454",
+    "url": "/VProk/static/js/main.675cc74d.chunk.js"
   },
   {
     "revision": "28825e220e904a33108e",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VProk/static/media/contacts_bg.a9dad2b7.jpg"
   },
   {
-    "revision": "cd332c134a87b203f88c7a99d8b5a2b9",
-    "url": "/VProk/static/media/header_bg.cd332c13.jpg"
-  },
-  {
     "revision": "3ff381902f026ac4a56f2f628380a9f9",
     "url": "/VProk/static/media/map.3ff38190.png"
+  },
+  {
+    "revision": "f0009d1ff8a83fcac9313b426609c66f",
+    "url": "/VProk/static/media/mini-bg.f0009d1f.jpg"
   },
   {
     "revision": "b91e201573789494826c37ea0e149d7e",
